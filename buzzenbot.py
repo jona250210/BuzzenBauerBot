@@ -5,6 +5,8 @@ from discord import *
 
 intents = discord.Intents.default()
 intents.message_content = True
+intents.reactions = True
+intents.members = True 
 
 # -------------------------------------
 path_to_token = "./.token"
